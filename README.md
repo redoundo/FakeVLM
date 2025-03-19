@@ -4,8 +4,7 @@
 </div>
 <div align="center">
 
-[Siwei Wen](https://openreview.net/profile?id=~Siwei_Wen5), [Junyan Ye](https://yejy53.github.io/), [Peilin Feng](https://peilin-ff.github.io/), [Hengrui Kang](http://www.w3.org/1998/Math/MathML)
-[Zichen Wen](https://scholar.google.com/citations?user=N-aPFvEAAAAJ&hl=zh-CN), [Yize Chen](https://openreview.net/profile?id=~Yize_Chen2), [Jiang Wu](https://scholar.google.com/citations?user=LHiiL7AAAAAJ&hl=zh-CN), [Wenjun Wu](https://openreview.net/profile?id=~wenjun_wu3), [Conghui He](https://conghui.github.io/), [Weijia Li](https://liweijia.github.io/)
+[Siwei Wen](https://openreview.net/profile?id=~Siwei_Wen5), [Junyan Ye](https://yejy53.github.io/), [Peilin Feng](https://peilin-ff.github.io/), [Hengrui Kang](http://www.w3.org/1998/Math/MathML)<br>[Zichen Wen](https://scholar.google.com/citations?user=N-aPFvEAAAAJ&hl=zh-CN), [Yize Chen](https://openreview.net/profile?id=~Yize_Chen2), [Jiang Wu](https://scholar.google.com/citations?user=LHiiL7AAAAAJ&hl=zh-CN), [Wenjun Wu](https://openreview.net/profile?id=~wenjun_wu3), [Conghui He](https://conghui.github.io/), [Weijia Li](https://liweijia.github.io/)
 
 </div>
 <!-- <div align="center">
