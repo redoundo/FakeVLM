@@ -4,7 +4,7 @@
 </div>
 <div align="center">
 
-[Siwei Wen](https://openreview.net/profile?id=~Siwei_Wen5), [Junyan Ye](https://yejy53.github.io/), [Peilin Feng](https://peilin-ff.github.io/), [Hengrui Kang](http://www.w3.org/1998/Math/MathML)<br>[Zichen Wen](https://scholar.google.com/citations?user=N-aPFvEAAAAJ&hl=zh-CN), [Yize Chen](https://openreview.net/profile?id=~Yize_Chen2), [Jiang Wu](https://scholar.google.com/citations?user=LHiiL7AAAAAJ&hl=zh-CN), [Wenjun Wu](https://openreview.net/profile?id=~wenjun_wu3), [Conghui He](https://conghui.github.io/), [Weijia Li](https://liweijia.github.io/)
+[Siwei Wen](https://openreview.net/profile?id=~Siwei_Wen5)\*, [Junyan Ye](https://yejy53.github.io/)\*, [Peilin Feng](https://peilin-ff.github.io/), [Hengrui Kang](http://www.w3.org/1998/Math/MathML)<br>[Zichen Wen](https://scholar.google.com/citations?user=N-aPFvEAAAAJ&hl=zh-CN), [Yize Chen](https://openreview.net/profile?id=~Yize_Chen2), [Jiang Wu](https://scholar.google.com/citations?user=LHiiL7AAAAAJ&hl=zh-CN), [Wenjun Wu](https://openreview.net/profile?id=~wenjun_wu3), [Conghui He](https://conghui.github.io/), [Weijia Li](https://liweijia.github.io/)<sup>†</sup>
 
 </div>
 <!-- <div align="center">
@@ -15,7 +15,7 @@
 </div> -->
 
 ## 📰 News
-- **[2025.3.20]**: 🔥 We have released **Spot the Fake: Large Multimodal Model-Based Synthetic Image Detection with Artifact Explanation**. Check out the [paper](). We present FakeClue dataset and FakeVLM model.
+- **[2025.3.20]**: 🔥 We have released **Spot the Fake: Large Multimodal Model-Based Synthetic Image Detection with Artifact Explanation**. Check out the [paper](https://arxiv.org/abs/2503.14905). We present FakeClue dataset and FakeVLM model.
 
 ## <img id="painting_icon" width="3%" src="https://cdn-icons-png.flaticon.com/256/599/599205.png"> FakeVLM Overview
 
@@ -93,8 +93,25 @@ To provide a comprehensive comparison of the model performance across the three 
 <img src="imgs/result.jpg" alt="result" width="400" height="auto">
 </div>
 
+## 😄 Acknowledgement
 
-<!-- ## 📝 Citation
-If you find our work useful in your research, please consider citing our paper:
-```bibtex
-@inproceedings{fakevlm, -->
+This repository is built upon the work of [LLaVA](https://github.com/haotian-liu/LLaVA/tree/main). We appreciate their contributions and insights that have provided a strong foundation for our research.
+
+## 📨 Contact
+
+If you have any questions or suggestions, please feel free to contact us 
+at [466439420gh@gmail.com](466439420gh@gmail.com).
+
+## 📝 Citation
+If you find our work interesting and helpful, please consider giving our repo a star. Additionally, if you would like to cite our work, please use the following format:
+```shell
+@misc{wen2025spotfakelargemultimodal,
+      title={Spot the Fake: Large Multimodal Model-Based Synthetic Image Detection with Artifact Explanation}, 
+      author={Siwei Wen and Junyan Ye and Peilin Feng and Hengrui Kang and Zichen Wen and Yize Chen and Jiang Wu and Wenjun Wu and Conghui He and Weijia Li},
+      year={2025},
+      eprint={2503.14905},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.14905}, 
+}
+```
