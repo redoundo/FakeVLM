@@ -34,7 +34,7 @@ With the rapid advancement of Artificial Intelligence Generated Content (AIGC) t
 ## 🛠️ Installation
 Please clone our repository and change to that folder
 ```bash
-git clone git@github.com:lingcco/FakeVLM.git
+git clone git@github.com:opendatalab/FakeVLM.git
 cd FakeVLM
 ```
 
