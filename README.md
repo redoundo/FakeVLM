@@ -4,9 +4,27 @@
 </div>
 <div align="center">
 
-[Siwei Wen](https://openreview.net/profile?id=~Siwei_Wen5)\*, [Junyan Ye](https://yejy53.github.io/)\*, [Peilin Feng](https://peilin-ff.github.io/), [Hengrui Kang](http://www.w3.org/1998/Math/MathML)<br>[Zichen Wen](https://scholar.google.com/citations?user=N-aPFvEAAAAJ&hl=zh-CN), [Yize Chen](https://openreview.net/profile?id=~Yize_Chen2), [Jiang Wu](https://scholar.google.com/citations?user=LHiiL7AAAAAJ&hl=zh-CN), [Wenjun Wu](https://openreview.net/profile?id=~wenjun_wu3), [Conghui He](https://conghui.github.io/), [Weijia Li](https://liweijia.github.io/)<sup>†</sup>
+[Siwei Wen](https://openreview.net/profile?id=~Siwei_Wen5)<sup>1,3*</sup>, 
+[Junyan Ye](https://yejy53.github.io/)<sup>2,1*</sup>,
+[Peilin Feng](https://peilin-ff.github.io/)<sup>1,3</sup>, 
+[Hengrui Kang](http://www.w3.org/1998/Math/MathML)<sup>4,1</sup>, <br>
+[Zichen Wen](https://scholar.google.com/citations?user=N-aPFvEAAAAJ&hl=zh-CN)<sup>4,1</sup>, 
+[Yize Chen](https://openreview.net/profile?id=~Yize_Chen2)<sup>5</sup>, 
+[Jiang Wu](https://scholar.google.com/citations?user=LHiiL7AAAAAJ&hl=zh-CN)<sup>1</sup>, 
+[Wenjun Wu](https://openreview.net/profile?id=~wenjun_wu3)<sup>3</sup>, 
+[Conghui He](https://conghui.github.io/)<sup>1</sup>, 
+[Weijia Li](https://liweijia.github.io/)<sup>2,1†</sup>
+
+<sup>1</sup>Shanghai Artificial Intelligence Laboratory, <sup>2</sup>Sun Yat-sen University<br>
+<sup>3</sup>Beihang University, <sup>4</sup>Shanghai Jiao Tong University, <sup>5</sup>The Chinese University of Hong Kong, Shenzhen
 
 </div>
+
+<div align="center">
+
+[![arXiv](https://img.shields.io/badge/Arxiv-2503.14905-AD1C18.svg?logo=arXiv)](https://arxiv.org/pdf/2503.14905) 
+</div>
+
 <!-- <div align="center">
   <p align="center">
     <a href=''>
