@@ -4,10 +4,10 @@
 </div>
 <div align="center">
 
-[Siwei Wen](https://openreview.net/profile?id=~Siwei_Wen5)<sup>1,3*</sup>, 
+[Siwei Wen](https://scholar.google.com/citations?user=kJRiUYwAAAAJ&hl=zh-CN)<sup>1,3*</sup>, 
 [Junyan Ye](https://yejy53.github.io/)<sup>2,1*</sup>,
 [Peilin Feng](https://peilin-ff.github.io/)<sup>1,3</sup>, 
-[Hengrui Kang](http://www.w3.org/1998/Math/MathML)<sup>4,1</sup>, <br>
+[Hengrui Kang](https://scholar.google.com/citations?user=kVbzWCAAAAAJ&hl=zh-CN)<sup>4,1</sup>, <br>
 [Zichen Wen](https://scholar.google.com/citations?user=N-aPFvEAAAAJ&hl=zh-CN)<sup>4,1</sup>, 
 [Yize Chen](https://openreview.net/profile?id=~Yize_Chen2)<sup>5</sup>, 
 [Jiang Wu](https://scholar.google.com/citations?user=LHiiL7AAAAAJ&hl=zh-CN)<sup>1</sup>, 
