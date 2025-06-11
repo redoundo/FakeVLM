@@ -129,13 +129,10 @@ at [466439420gh@gmail.com](466439420gh@gmail.com).
 ## 📝 Citation
 If you find our work interesting and helpful, please consider giving our repo a star. Additionally, if you would like to cite our work, please use the following format:
 ```shell
-@misc{wen2025spotfakelargemultimodal,
-      title={Spot the Fake: Large Multimodal Model-Based Synthetic Image Detection with Artifact Explanation}, 
-      author={Siwei Wen and Junyan Ye and Peilin Feng and Hengrui Kang and Zichen Wen and Yize Chen and Jiang Wu and Wenjun Wu and Conghui He and Weijia Li},
-      year={2025},
-      eprint={2503.14905},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2503.14905}, 
+@article{wen2025spot,
+  title={Spot the fake: Large multimodal model-based synthetic image detection with artifact explanation},
+  author={Wen, Siwei and Ye, Junyan and Feng, Peilin and Kang, Hengrui and Wen, Zichen and Chen, Yize and Wu, Jiang and Wu, Wenjun and He, Conghui and Li, Weijia},
+  journal={arXiv preprint arXiv:2503.14905},
+  year={2025}
 }
 ```
