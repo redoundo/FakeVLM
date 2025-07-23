@@ -1,3 +1,5 @@
 wandb/
 playground/
 checkpoints/
+*.idea
+*.pyc
