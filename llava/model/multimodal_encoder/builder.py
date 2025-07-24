@@ -1,5 +1,5 @@
 import os
-from multimodal_encoder.clip_encoder import CLIPVisionTower, CLIPVisionTowerS2
+from llava.model.multimodal_encoder.clip_encoder import CLIPVisionTower, CLIPVisionTowerS2
 
 
 def build_vision_tower(vision_tower_cfg, **kwargs):
