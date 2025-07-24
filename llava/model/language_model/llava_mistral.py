@@ -25,7 +25,7 @@ from transformers import AutoConfig, AutoModelForCausalLM, \
 from transformers.modeling_outputs import CausalLMOutputWithPast
 from transformers.generation.utils import GenerateOutput
 
-from ..llava_arch import LlavaMetaModel, LlavaMetaForCausalLM
+from llava.model.llava_arch import LlavaMetaModel, LlavaMetaForCausalLM
 
 
 class LlavaMistralConfig(MistralConfig):
