@@ -1,10 +1,10 @@
 #!/bin/bash
-deepspeed  llava/train/train_mem.py \
-    --deepspeed ./scripts/zero3.json \
+deepspeed  /FakeVLM/llava/train/train_mem.py \
+    --deepspeed /FakeVLM/scripts/zero3.json \
     --model_name_or_path llava-hf/llava-1.5-7b-hf \
     --version v1 \
-    --data_path  playground/data_json/train.json \
-    --image_folder "playground/data/train" \
+    --data_path  /FakeVLM/playground/data_json/train.json \
+    --image_folder "/FakeVLM/playground/data/train" \
     --vision_tower openai/clip-vit-large-patch14-336 \
     --freeze_vision_tower False \
     --freeze_backbone False \
@@ -15,7 +15,7 @@ deepspeed  llava/train/train_mem.py \
     --image_aspect_ratio pad \
     --group_by_modality_length True \
     --bf16 True \
-    --output_dir ./checkpoints/llava-v1.5-7b-cls \
+    --output_dir /FakeVLM/checkpoints/llava-v1.5-7b-cls \
     --num_train_epochs 2 \
     --per_device_train_batch_size 32 \
     --per_device_eval_batch_size 4 \
@@ -33,5 +33,4 @@ deepspeed  llava/train/train_mem.py \
     --model_max_length 2048 \
     --gradient_checkpointing True \
     --dataloader_num_workers 4 \
-    --lazy_preprocess True \
-    --report_to wandb
+    --lazy_preprocess True
