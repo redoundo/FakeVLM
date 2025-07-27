@@ -772,7 +772,6 @@ class DataCollatorForSupervisedDataset(object):
 
         return batch
 
-
 def make_supervised_data_module(tokenizer: transformers.PreTrainedTokenizer,
                                 data_args) -> Dict:
     """Make dataset and collator for supervised fine-tuning."""
@@ -783,6 +782,32 @@ def make_supervised_data_module(tokenizer: transformers.PreTrainedTokenizer,
     return dict(train_dataset=train_dataset,
                 eval_dataset=None,
                 data_collator=data_collator)
+# dataloader 를 사용할 때 변경된 내용.
+# def make_supervised_data_module(tokenizer: transformers.PreTrainedTokenizer,
+#                                 data_args, training_args: TrainingArguments) -> Dict:
+#     """Make dataset and collator for supervised fine-tuning."""
+#     train_dataset = LazySupervisedDataset(tokenizer=tokenizer,
+#                                 data_path=data_args.data_path,
+#                                 data_args=data_args)
+#     data_collator = DataCollatorForSupervisedDataset(tokenizer=tokenizer)
+#     return dict(train_dataset=train_dataset,
+#                 eval_dataset=None,
+#                 data_collator=data_collator)
+    # train_dataset = LazySupervisedDataset(tokenizer=tokenizer,
+    #                             data_path=data_args.data_path,
+    #                             data_args=data_args)
+    # data_collator = DataCollatorForSupervisedDataset(tokenizer=tokenizer)
+    #
+    # train_dataloader = DataLoader(
+    #     train_dataset,
+    #     batch_size=training_args.per_device_train_batch_size,
+    #     collate_fn=data_collator,
+    #     num_workers=training_args.dataloader_num_workers,
+    #     pin_memory=True,
+    # )
+    #
+    # return dict(train_dataloader=train_dataloader,
+    #             eval_dataset=None)
 
 
 def train(attn_implementation=None):
@@ -964,12 +989,25 @@ def train(attn_implementation=None):
         if any([p.requires_grad for p in module.parameters()]):
             rank0_print(f"Trainable module: {name}")
 
+
     data_module = make_supervised_data_module(tokenizer=tokenizer,
                                               data_args=data_args)
+    # data_module = make_supervised_data_module(tokenizer=tokenizer,
+    #                                           data_args=data_args,
+    #                                           training_args=training_args)
+    
     trainer = LLaVATrainer(model=model,
                     tokenizer=tokenizer,
                     args=training_args,
                     **data_module)
+
+    # trainer = LLaVATrainer(model=model,
+    #             tokenizer=tokenizer,
+    #             args=training_args,
+    #             train_dataset=data_module['train_dataloader'].dataset if 'train_dataloader' in data_module else data_module['train_dataset'],
+    #             eval_dataset=data_module['eval_dataset'],
+    #             data_collator=DataCollatorForSupervisedDataset(tokenizer=tokenizer) if 'train_dataloader' not in data_module else None)
+
 
     if list(pathlib.Path(training_args.output_dir).glob("checkpoint-*")):
         trainer.train(resume_from_checkpoint=True)

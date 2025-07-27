@@ -22,7 +22,7 @@ deepspeed  /root/FakeVLM/llava/train/train_mem.py \
     --gradient_accumulation_steps 1 \
     --evaluation_strategy "no" \
     --save_strategy "steps" \
-    --save_steps 50000 \
+    --save_steps 5000 \
     --save_total_limit 1 \
     --learning_rate 2e-5 \
     --weight_decay 0. \
@@ -33,4 +33,7 @@ deepspeed  /root/FakeVLM/llava/train/train_mem.py \
     --model_max_length 2048 \
     --gradient_checkpointing True \
     --dataloader_num_workers 4 \
-    --lazy_preprocess True
+    --lazy_preprocess True \
+    --push_to_hub=True \
+    --hub_strategy="checkpoint" \
+    --hub_model_id="ahn-park/fakevlm_unoffical"
