@@ -1,6 +1,7 @@
 git+https://github.com/bfshi/scaling_on_scales.git
-torch==2.1.2
+torch==2.1.2+cu121
 torchvision==0.16.2
+protobuf
 transformers==4.37.2
 tokenizers==0.15.1
 sentencepiece==0.1.99
