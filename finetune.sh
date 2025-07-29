@@ -15,14 +15,14 @@ deepspeed  /root/FakeVLM/llava/train/train_mem.py \
     --image_aspect_ratio pad \
     --group_by_modality_length True \
     --bf16 True \
-    --output_dir /root/FakeVLM/checkpoints/llava-v1.5-7b-cls \
+    --output_dir /workspace/checkpoints/fakevlm/llava-v1.5-7b-cls \
     --num_train_epochs 2 \
     --per_device_train_batch_size 32 \
     --per_device_eval_batch_size 4 \
     --gradient_accumulation_steps 1 \
     --evaluation_strategy "no" \
     --save_strategy "steps" \
-    --save_steps 5000 \
+    --save_steps 500 \
     --save_total_limit 1 \
     --learning_rate 2e-5 \
     --weight_decay 0. \
@@ -34,6 +34,6 @@ deepspeed  /root/FakeVLM/llava/train/train_mem.py \
     --gradient_checkpointing True \
     --dataloader_num_workers 4 \
     --lazy_preprocess True \
-    --push_to_hub True \
-    --hub_strategy "checkpoint" \
-    --hub_model_id "ahn-park/fakevlm_unoffical"
+#    --push_to_hub True \
+#    --hub_strategy "checkpoint" \
+#    --hub_model_id "ahn-park/fakevlm_unoffical"
