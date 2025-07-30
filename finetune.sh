@@ -4,7 +4,7 @@ deepspeed  /root/FakeVLM/llava/train/train_mem.py \
     --model_name_or_path llava-hf/llava-1.5-7b-hf \
     --version v1 \
     --data_path  /workspace/data_json/train.json \
-    --image_folder "/workspace/train" \
+    --image_folder "/workspace/data/train" \
     --vision_tower openai/clip-vit-large-patch14-336 \
     --freeze_vision_tower False \
     --freeze_backbone False \
@@ -33,7 +33,4 @@ deepspeed  /root/FakeVLM/llava/train/train_mem.py \
     --model_max_length 2048 \
     --gradient_checkpointing True \
     --dataloader_num_workers 4 \
-    --lazy_preprocess True \
-#    --push_to_hub True \
-#    --hub_strategy "checkpoint" \
-#    --hub_model_id "ahn-park/fakevlm_unoffical"
+    --lazy_preprocess True
